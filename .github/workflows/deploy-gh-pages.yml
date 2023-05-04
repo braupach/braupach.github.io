@@ -31,7 +31,7 @@ jobs:
           cache: "yarn"
 
       - name: install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install --immutable
 
       - name: build project
         run: yarn build
