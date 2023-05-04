@@ -68,11 +68,11 @@ const config = {
               }, */
         items: [
           { to: "/blog", label: "Blog", position: "left" },
-          {
+          /*{
             href: "https://github.com/facebook/docusaurus",
             label: "GitHub",
             position: "right",
-          },
+          },*/
         ],
       },
       footer: {
@@ -105,7 +105,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Benno Raupach. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
